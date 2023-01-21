@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .selected {
+    opacity: 1;
+  }
+  
+  .logos-container img:not(.selected) {
+    opacity: 0.5;
+  }
+
+  .botones {
+    cursor: pointer;
+    width: 130px;
+    height: 150px;
+  }
+  
+  
+  
